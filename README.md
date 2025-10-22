@@ -80,11 +80,9 @@ You can download and open these `.html` files directly in any web browser to exp
 
 ## 📜 Citation
 
-If you use this code or data in your research, please cite the original paper:
-
 ```bibtex
 @inproceedings{[Tuhin_2025],
-  author    = {[Al Foysal Tuhin], [Rakhi Moni Saha], [Adiba Masud], [Tasnim Ara Shifa], [Nusrat Jahan Mim], [Sazia Sarmin]}
+  author    = {[Al Foysal Tuhin], [Rakhi Moni Saha], [Adiba Masud], [Tasnim Ara Shifa], [Nusrat Jahan Mim], [Sazia Sarmin]},
   title     = {Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews},
   booktitle = {Proc. Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025)},
   year      = {2025},
