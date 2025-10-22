@@ -70,4 +70,24 @@ To replicate the analysis and regenerate the visualizations, follow these steps:
 
 You must create a `requirements.txt` file in your repository with the following content. These are the main libraries used in your notebook.
 
+## 🗺️ Visualizations
+
+The notebook generates two interactive maps, which are also saved in this repository:
+* `hotels_world_map.html`: Plots the specific location of each hotel included in the study.
+* `world_map_all14_countries.html`: Shows the 14 different countries from which hotel review data was collected.
+
+You can download and open these `.html` files directly in any web browser to explore the maps.
+
+## 📜 Citation
+
+If you use this code or data in your research, please cite the original paper:
+
+```bibtex
+@inproceedings{[YourLastName_2025],
+  author    = {[Your Name(s) Here]},
+  title     = {Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews},
+  booktitle = {Proc. Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025)},
+  year      = {2025},
+  publisher = {IEEE}
+}
 
