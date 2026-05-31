@@ -2,7 +2,7 @@
 
 This repository contains the official code, datasets, and visualizations for the research paper "Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews," published by IEEE for the Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025).
 
-## 📄 Publication
+##[ 📄 Publication ](https://ieeexplore.ieee.org/document/11277568)
 
 * **Paper:** Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews
 * **Conference:** Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025)
