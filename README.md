@@ -11,6 +11,14 @@
   <strong>Sentiment Analysis • Natural Language Processing • Machine Learning • European Luxury Hospitality • Geospatial Analytics</strong>
 </p>
 
+<p align="center">
+  📄 IEEE Published Paper
+  &nbsp;•&nbsp;
+  💻 GitHub Repository
+</p>
+
+---
+
 ---
 
 ## ✨ Overview
