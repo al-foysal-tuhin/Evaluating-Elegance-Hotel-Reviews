@@ -1,91 +1,146 @@
-# Evaluating Elegance: Sentiment Analysis in European Luxury Hotel Reviews
+# 🏨 Evaluating Elegance: Sentiment Analysis in European Luxury Hotel Reviews
 
-This repository contains the official code, datasets, and visualizations for the research paper "Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews," published by IEEE for the Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025).
+<p align="center">
+  <img src="https://img.shields.io/badge/Research-IEEE%20Published-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE Published">
+  <img src="https://img.shields.io/badge/Machine%20Learning-NLP-8A2BE2?style=for-the-badge" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/License-Apache%202.0-D22128?style=for-the-badge" alt="License">
+</p>
 
-## 📄 Publication 
-* **Paper:** [Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews](https://ieeexplore.ieee.org/document/11277568)
+<p align="center">
+  <strong>Sentiment Analysis • Natural Language Processing • Machine Learning • European Luxury Hospitality • Geospatial Analytics</strong>
+</p>
 
-* **Conference:** Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025)
-* **Publisher:** IEEE
+<p align="center">
+  <a href="https://ieeexplore.ieee.org/document/11277568">📄 Read the IEEE Paper</a>
+  •
+  <a href="https://github.com/al-foysal-tuhin/Evaluating-Elegance-Hotel-Reviews">💻 Repository</a>
+</p>
+
+---
+
+## ✨ About the Research
+
+**Evaluating Elegance: Sentiment Analysis in European Luxury Hotel Reviews** is a research project investigating customer sentiment across reviews of luxury hotels in Europe.
+
+The study applies a complete **Natural Language Processing (NLP) and Machine Learning pipeline** to hotel reviews collected from **Google Reviews and Tripadvisor**, classifying customer feedback into:
+
+- 🟢 **Positive**
+- 🔴 **Negative**
+- 🟡 **Neutral**
+
+Beyond sentiment classification, the research explores the **geographical distribution of luxury hotels and review data across Europe**, combining machine learning with interactive geospatial visualization.
+
+The complete research workflow is implemented in the accompanying Jupyter Notebook.
+
+---
+
+## 📄 IEEE Publication
+
+This research has been **published by IEEE** and presented at the:
+
+**Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025)**
+
+| Publication | Details |
+|---|---|
+| 📚 Title | *Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews* |
+| 🏛️ Publisher | IEEE |
+| 🎓 Conference | AICDMB-2025 |
+| 📅 Year | 2025 |
+| 🔗 Paper | [IEEE Xplore](https://ieeexplore.ieee.org/document/11277568) |
+
+### 📖 Published Paper
+
+<p align="center">
+
+<a href="https://ieeexplore.ieee.org/document/11277568">
+  <img src="https://img.shields.io/badge/📄%20Read%20Published%20Paper-IEEE%20Xplore-00629B?style=for-the-badge" alt="Read Published Paper">
+</a>
+
+</p>
+
+---
 
 ## 📝 Abstract
 
-This research investigates customer sentiment in reviews for luxury European hotels sourced from Google Reviews and Tripadvisor. The project implements a machine learning pipeline to preprocess and analyze review text, applying various classification algorithms (e.g., Logistic Regression, Random Forest, SVM) to model and evaluate sentiment as Positive, Negative, or Neutral. The study also includes geographical visualization of the hotels and countries included in the dataset using interactive maps.
+This research investigates customer sentiment in reviews for luxury European hotels sourced from **Google Reviews and Tripadvisor**.
 
-## 🗂️ Repository Structure
-## 🛠️ Methodology
+A machine learning pipeline was developed to preprocess and analyze review text, followed by the application and comparison of multiple classification algorithms, including **Logistic Regression, Decision Trees, Random Forest, Support Vector Machine, k-Nearest Neighbors, and Gaussian Naive Bayes**.
 
-The complete analysis is contained within the `uncensored_thesiswork.ipynb` Jupyter Notebook. The workflow is as follows:
+The study evaluates model performance using **Accuracy, Precision, Recall, and F1-Score** while also incorporating geographical visualization to explore the distribution of hotels and countries represented in the dataset.
 
-1.  **Data Loading:** The dataset (`hotel_reviewssentiments.csv`) is loaded for analysis.
-2.  **Text Preprocessing:** A series of cleaning steps are applied to the raw review text:
-    * Dropping null values
-    * Lowercasing
-    * Tokenization (NLTK)
-    * Removal of punctuation, stopwords, emojis, and numbers
-    * Stemming (NLTK PorterStemmer)
-3.  **Feature Extraction:** The cleaned text is vectorized using **TF-IDF (Term Frequency-Inverse Document Frequency)**.
-4.  **Model Training:** The dataset is split (80% train / 20% test) and the following machine learning models are trained:
-    * Logistic Regression
-    * Decision Trees
-    * Random Forest
-    * Support Vector Machine (SVM)
-    * k-Nearest Neighbors (k-NN)
-    * Gaussian Naive Bayes
-5.  **Model Evaluation:** Performance is compared using **Accuracy**, **Precision**, **Recall**, and **F1-Score**.
-6.  **Data Visualization:** Interactive maps are generated using **Folium** to plot the geographical locations of the hotels and countries in the dataset, saved as `.html` files.
+---
 
-## 🚀 How to Run
+## 🎯 Research Objectives
 
-To replicate the analysis and regenerate the visualizations, follow these steps:
+The project focuses on several key objectives:
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/al-foysal-tuhin/Evaluating-Elegance-Hotel-Reviews.git](https://github.com/al-foysal-tuhin/Evaluating-Elegance-Hotel-Reviews.git)
-    cd Evaluating-Elegance-Hotel-Reviews
-    ```
+- Analyze customer sentiment within European luxury hotel reviews.
+- Develop an NLP preprocessing pipeline for unstructured review text.
+- Transform textual reviews into machine-readable numerical features.
+- Train and compare multiple machine learning classification models.
+- Evaluate model performance using standard classification metrics.
+- Investigate the geographical distribution of the hotel dataset.
+- Generate interactive maps to visually explore the collected data.
+- Identify an effective machine learning approach for hotel-review sentiment classification.
 
-2.  **Install dependencies:**
-    It's recommended to use a virtual environment. You will need to create the `requirements.txt` file first (see next section).
-    ```bash
-    pip install -r requirements.txt
-    ```
+---
 
-3.  **Download NLTK data:**
-    Run the following in a Python interpreter to download the necessary NLTK packages:
-    ```python
-    import nltk
-    nltk.download('punkt')
-    nltk.download('stopwords')
-    ```
+## 🧠 Machine Learning Pipeline
 
-4.  **Run the notebook:**
-    Launch Jupyter Notebook and open `uncensored_thesiswork.ipynb`.
-    ```bash
-    jupyter notebook uncensored_thesiswork.ipynb
-    ```
-    You can run all cells to reproduce the model training and generate the `.html` map files.
-
-## 📋 Requirements
-
-You must create a `requirements.txt` file in your repository with the following content. These are the main libraries used in your notebook.
-
-## 🗺️ Visualizations
-
-The notebook generates two interactive maps, which are also saved in this repository:
-* `hotels_world_map.html`: Plots the specific location of each hotel included in the study.
-* `world_map_all14_countries.html`: Shows the 14 different countries from which hotel review data was collected.
-
-You can download and open these `.html` files directly in any web browser to explore the maps.
-
-## 📜 Citation
-
-```bibtex
-@inproceedings{[Tuhin_2025],
-  author    = {[Al Foysal Tuhin], [Rakhi Moni Saha], [Adiba Masud], [Tasnim Ara Shifa], [Nusrat Jahan Mim], [Sazia Sarmin]},
-  title     = {Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews},
-  booktitle = {Proc. Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025)},
-  year      = {2025},
-  publisher = {IEEE}
-}
-
+```text
+                    ┌─────────────────────────┐
+                    │   Hotel Review Dataset  │
+                    │ Google Reviews +         │
+                    │ Tripadvisor             │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │    Data Preprocessing   │
+                    │ • Null Removal          │
+                    │ • Lowercasing           │
+                    │ • Tokenization          │
+                    │ • Stopword Removal      │
+                    │ • Emoji Removal         │
+                    │ • Punctuation Removal   │
+                    │ • Stemming              │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │      TF-IDF Vectorizer  │
+                    │ Text → Numerical        │
+                    │ Feature Representation  │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │     Train / Test Split  │
+                    │       80% / 20%         │
+                    └────────────┬────────────┘
+                                 │
+              ┌──────────────────┼──────────────────┐
+              │                  │                  │
+              ▼                  ▼                  ▼
+        Logistic Regression   Decision Tree    Random Forest
+              │                  │                  │
+              ▼                  ▼                  ▼
+             SVM                 k-NN          Naive Bayes
+              │                  │                  │
+              └──────────────────┼──────────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │    Model Evaluation     │
+                    │ • Accuracy              │
+                    │ • Precision             │
+                    │ • Recall                │
+                    │ • F1-Score              │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │   Geospatial Analysis   │
+                    │      using Folium       │
+                    └─────────────────────────┘
