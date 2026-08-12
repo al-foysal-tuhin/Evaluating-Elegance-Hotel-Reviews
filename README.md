@@ -1,165 +1,259 @@
-# ✈️ British Airways Data Science Job Simulation
+# 🏨 Evaluating Elegance: Sentiment Analysis in European Luxury Hotel Reviews
 
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/IEEE-Published%20Research-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE Published Research">
+  <img src="https://img.shields.io/badge/NLP-Sentiment%20Analysis-8A2BE2?style=for-the-badge" alt="NLP Sentiment Analysis">
+  <img src="https://img.shields.io/badge/Machine%20Learning-6%20Models-FF6F00?style=for-the-badge" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/Python-Data%20Science-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+</p>
 
-### ✈️ British Airways | Data Science | Customer Booking Analysis
-
-**Predicting customer booking behavior using data analysis, visualization, and machine learning.**
-
-</div>
-
----
-
-## 📌 Project Overview
-
-This project was completed as part of the **British Airways Data Science Job Simulation**.
-
-The project focuses on analyzing customer booking data to understand booking behavior and build machine learning models capable of predicting whether a customer is likely to complete a booking.
-
-The project follows an end-to-end data science workflow:
-
-    Data Collection
-          ↓
-    Data Cleaning
-          ↓
-    Exploratory Data Analysis
-          ↓
-    Feature Engineering
-          ↓
-    Model Training
-          ↓
-    Model Evaluation
-          ↓
-    Business Insights
+<p align="center">
+  <strong>Sentiment Analysis • Natural Language Processing • Machine Learning • European Luxury Hospitality • Geospatial Analytics</strong>
+</p>
 
 ---
 
-## 🎯 Project Objectives
+## ✨ Overview
 
-The main objectives of this project were to:
+**Evaluating Elegance: Sentiment Analysis in European Luxury Hotel Reviews** is an IEEE-published research project investigating customer sentiment within luxury hotel reviews across Europe.
 
-- 🧹 Clean and preprocess airline customer booking data
-- 🔎 Perform exploratory data analysis
-- 📊 Identify important customer booking patterns
-- 🧠 Build multiple machine learning models
-- 📈 Compare model performance
-- 🔍 Identify important predictive features
-- 💡 Translate technical results into meaningful business insights
+The research applies a complete **Natural Language Processing (NLP) and Machine Learning pipeline** to hotel reviews sourced from **Google Reviews and Tripadvisor**, classifying customer feedback into:
 
----
+- 🟢 Positive
+- 🟡 Neutral
+- 🔴 Negative
 
-## ✈️ British Airways Theme
+The project combines **text preprocessing, TF-IDF feature extraction, six machine learning classification algorithms, model evaluation, and interactive geographical visualization** to investigate sentiment patterns within the European luxury hospitality sector.
 
-<div align="center">
-
-🔴 **British Airways**  
-**Customer Booking Analysis & Prediction**
-
-🔵 Data Analysis • Machine Learning • Business Intelligence
-
-</div>
-
-The project is presented with a visual style inspired by the **British Airways** brand — combining a clean white layout with red and blue accents.
+The complete analysis and experimental workflow are contained in the accompanying Jupyter Notebook.
 
 ---
 
-## 📊 Exploratory Data Analysis
+## 📄 IEEE Publication
 
-The exploratory analysis investigates customer booking behavior and relationships between different variables.
+This research was published by **IEEE** as part of the:
 
-Key areas include:
+**Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025)**
 
-- Customer booking patterns
-- Flight-related characteristics
-- Distribution of booking outcomes
-- Customer behavior
-- Feature relationships
-- Correlation analysis
-- Data distributions
-- Important predictive variables
+| | |
+|---|---|
+| 📚 **Paper** | *Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews* |
+| 🏛️ **Publisher** | IEEE |
+| 🎓 **Conference** | Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025) |
+| 📅 **Year** | 2025 |
+| 🔗 **IEEE Xplore** | [View Published Paper](https://ieeexplore.ieee.org/document/11277568) |
 
-Visualizations were used throughout the analysis to make patterns and relationships easier to understand.
-
----
-
-## 🤖 Machine Learning
-
-The project evaluates multiple machine learning models to determine which approach provides the strongest predictive performance.
-
-The machine learning workflow includes:
-
-- Data preprocessing
-- Feature selection
-- Feature engineering
-- Train/test splitting
-- Model training
-- Prediction
-- Performance evaluation
-- Model comparison
-- Feature importance analysis
+<p align="center">
+  <a href="https://ieeexplore.ieee.org/document/11277568">
+    <img src="https://img.shields.io/badge/📄%20READ%20THE%20PUBLISHED%20PAPER-IEEE%20Xplore-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="Read the IEEE Paper">
+  </a>
+</p>
 
 ---
 
-## 📈 Model Comparison
+## 📝 Abstract
 
-Different classification models were trained and evaluated using appropriate performance metrics.
+This research investigates customer sentiment in reviews for luxury European hotels sourced from **Google Reviews and Tripadvisor**.
 
-The comparison helps answer:
+A machine learning pipeline was developed to preprocess and analyze review text, followed by the application and comparison of multiple classification algorithms, including **Logistic Regression, Decision Trees, Random Forest, Support Vector Machine, k-Nearest Neighbors, and Gaussian Naive Bayes**.
 
-- Which model performs best?
-- Which features are most important?
-- How accurately can booking behavior be predicted?
-- Where do the models make incorrect predictions?
-- Which approach provides the most useful business value?
+The models classify reviews into **Positive, Negative, and Neutral** sentiment categories and are evaluated using **Accuracy, Precision, Recall, and F1-Score**.
+
+The study also incorporates **interactive geographical visualization** to explore the distribution of hotels and countries represented within the dataset.
 
 ---
 
-## 💡 Business Insights
+## 🎯 Research Objectives
 
-The analysis demonstrates how customer booking data can support airline decision-making.
+The research focuses on:
 
-Potential applications include:
-
-- 🎯 Targeted marketing campaigns
-- 👥 Customer segmentation
-- 📈 Increasing booking conversions
-- 💰 Revenue optimization
-- ✈️ Understanding customer purchasing behavior
-- 📊 Data-driven customer engagement strategies
-
-The goal is not simply to achieve a high model score, but to understand **why customers behave differently and how those insights could be used in a real business environment**.
+- 💬 Analyzing customer sentiment in European luxury hotel reviews.
+- 🧹 Developing an NLP preprocessing pipeline for unstructured review text.
+- 🔢 Converting textual reviews into numerical features using TF-IDF.
+- 🤖 Training and comparing six machine learning classification algorithms.
+- 📊 Evaluating model performance using multiple classification metrics.
+- 🌍 Investigating the geographical distribution of hotels represented in the dataset.
+- 🗺️ Creating interactive maps for geographical exploration.
+- 🔬 Identifying effective machine learning approaches for hotel-review sentiment classification.
 
 ---
 
-## 🏗️ Project Architecture
+## 🧠 Research Pipeline
 
-    ┌──────────────────────────────┐
-    │      Customer Booking Data   │
-    └──────────────┬───────────────┘
-                   ↓
-    ┌──────────────────────────────┐
-    │       Data Preprocessing     │
-    └──────────────┬───────────────┘
-                   ↓
-    ┌──────────────────────────────┐
-    │    Exploratory Data Analysis │
-    └──────────────┬───────────────┘
-                   ↓
-    ┌──────────────────────────────┐
-    │     Feature Engineering      │
-    └──────────────┬───────────────┘
-                   ↓
-    ┌──────────────────────────────┐
-    │      Machine Learning        │
-    └──────────────┬───────────────┘
-                   ↓
-    ┌──────────────────────────────┐
-    │     Model Evaluation         │
-    └──────────────┬───────────────┘
-                   ↓
-    ┌──────────────────────────────┐
-    │      Business Insights       │
-    └──────────────────────────────┘
+    ┌───────────────────────────────────┐
+    │       Hotel Review Dataset        │
+    │                                   │
+    │   Google Reviews + Tripadvisor    │
+    └──────────────────┬────────────────┘
+                       │
+                       ▼
+    ┌───────────────────────────────────┐
+    │       Text Preprocessing          │
+    │                                   │
+    │ • Null Removal                    │
+    │ • Lowercasing                     │
+    │ • Tokenization                    │
+    │ • Stopword Removal                │
+    │ • Punctuation Removal             │
+    │ • Emoji & Number Removal          │
+    │ • Stemming                        │
+    └──────────────────┬────────────────┘
+                       │
+                       ▼
+    ┌───────────────────────────────────┐
+    │          TF-IDF Vectorizer        │
+    │                                   │
+    │   Text → Numerical Representation │
+    └──────────────────┬────────────────┘
+                       │
+                       ▼
+    ┌───────────────────────────────────┐
+    │          Train / Test Split       │
+    │              80 / 20              │
+    └──────────────────┬────────────────┘
+                       │
+                       ▼
+    ┌───────────────────────────────────┐
+    │      Machine Learning Models      │
+    │                                   │
+    │ • Logistic Regression             │
+    │ • Decision Tree                   │
+    │ • Random Forest                   │
+    │ • Support Vector Machine          │
+    │ • k-Nearest Neighbors             │
+    │ • Gaussian Naive Bayes            │
+    └──────────────────┬────────────────┘
+                       │
+                       ▼
+    ┌───────────────────────────────────┐
+    │         Model Evaluation          │
+    │                                   │
+    │ • Accuracy                        │
+    │ • Precision                       │
+    │ • Recall                          │
+    │ • F1-Score                        │
+    └──────────────────┬────────────────┘
+                       │
+                       ▼
+    ┌───────────────────────────────────┐
+    │       Geospatial Analysis         │
+    │                                   │
+    │          Interactive Folium       │
+    │               Maps                │
+    └───────────────────────────────────┘
+
+---
+
+## 🔬 Methodology
+
+### 1. Data Loading
+
+The analysis begins with the hotel review dataset:
+
+`hotel_reviewssentiments.csv`
+
+The dataset contains review information used for sentiment classification and geographical analysis.
+
+### 2. Text Preprocessing
+
+The raw review text is cleaned using a sequence of NLP preprocessing operations:
+
+- Dropping null values
+- Converting text to lowercase
+- Tokenization using NLTK
+- Removing punctuation
+- Removing stopwords
+- Removing emojis
+- Removing numerical characters
+- Stemming using the NLTK `PorterStemmer`
+
+### 3. Feature Extraction
+
+The processed review text is converted into numerical features using:
+
+**TF-IDF — Term Frequency-Inverse Document Frequency**
+
+TF-IDF provides the numerical representation required by the traditional machine learning classifiers.
+
+### 4. Train/Test Split
+
+The dataset is divided into:
+
+- **80% Training Data**
+- **20% Testing Data**
+
+### 5. Model Training
+
+Six classification algorithms are trained:
+
+| Model | Classification Approach |
+|---|---|
+| **Logistic Regression** | Linear classification |
+| **Decision Tree** | Tree-based classification |
+| **Random Forest** | Ensemble learning |
+| **Support Vector Machine** | Margin-based classification |
+| **k-Nearest Neighbors** | Instance-based classification |
+| **Gaussian Naive Bayes** | Probabilistic classification |
+
+### 6. Model Evaluation
+
+Each model is evaluated using:
+
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score**
+
+Using multiple metrics provides a more complete understanding of model performance.
+
+### 7. Geographical Visualization
+
+The research also uses **Folium** to create interactive geographical visualizations of the hotels and countries represented in the dataset.
+
+---
+
+## 🤖 Machine Learning Models
+
+The project evaluates six different approaches to sentiment classification:
+
+    ┌─────────────────────────────────────┐
+    │        Sentiment Classification     │
+    └──────────────────┬──────────────────┘
+                       │
+          ┌────────────┼────────────┐
+          │            │            │
+          ▼            ▼            ▼
+    Logistic       Decision      Random
+    Regression       Tree        Forest
+          │            │            │
+          └────────────┼────────────┘
+                       │
+          ┌────────────┼────────────┐
+          │            │            │
+          ▼            ▼            ▼
+         SVM          k-NN     Naive Bayes
+
+The purpose is to compare different machine learning strategies rather than relying on a single classifier.
+
+---
+
+## 🗺️ Interactive Visualizations
+
+The notebook generates two interactive HTML maps.
+
+### 🌍 Hotel Locations
+
+`hotels_world_map.html`
+
+Displays the geographical locations of the individual hotels included in the study.
+
+### 🌎 Country Distribution
+
+`world_map_all14_countries.html`
+
+Visualizes the **14 countries** represented in the hotel review dataset.
+
+The generated HTML files can be opened directly in a web browser.
 
 ---
 
@@ -168,178 +262,282 @@ The goal is not simply to achieve a high model score, but to understand **why cu
 | Technology | Purpose |
 |---|---|
 | 🐍 **Python** | Core programming language |
-| 📓 **Jupyter Notebook** | Data analysis and experimentation |
-| 🐼 **Pandas** | Data manipulation and analysis |
+| 📓 **Jupyter Notebook** | Research and experimentation |
+| 🧠 **Scikit-learn** | Machine learning and evaluation |
+| 📝 **NLTK** | Natural Language Processing |
+| 📊 **Pandas** | Data manipulation |
 | 🔢 **NumPy** | Numerical computation |
-| 📊 **Matplotlib** | Data visualization |
-| 🎨 **Seaborn** | Statistical visualization |
-| 🤖 **Scikit-learn** | Machine learning |
-| 🌿 **Git** | Version control |
-| 🐙 **GitHub** | Project hosting |
+| 📈 **Matplotlib** | Data visualization |
+| 🗺️ **Folium** | Interactive geographical visualization |
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Structure
 
-    Data-Science-Job-Simulation/
+    Evaluating-Elegance-Hotel-Reviews/
     │
-    ├── British_Airways_Data_Analysis.ipynb
-    ├── British_Airways_ML_Model.ipynb
-    ├── requirements.txt
-    └── README.md
+    ├── 📓 uncensored_thesiswork.ipynb
+    │
+    ├── 📄 README.md
+    │
+    ├── 📜 LICENSE
+    │
+    ├── 📦 requirements.txt
+    │
+    ├── 🏆 Research Paper Certificate.pdf
+    │
+    ├── 🗺️ hotels_world_map.html
+    │
+    └── 🌍 world_map_all14_countries.html
+
+### 🔑 Main Research File
+
+`uncensored_thesiswork.ipynb`
+
+This notebook contains the complete research workflow, including data preprocessing, feature engineering, model training, evaluation, and visualization.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run
 
-### Clone the Repository
+### 1. Clone the Repository
 
-    git clone https://github.com/al-foysal-tuhin/Data-Science-Job-Simulation.git
+    git clone https://github.com/al-foysal-tuhin/Evaluating-Elegance-Hotel-Reviews.git
 
-### Navigate to the Project
+    cd Evaluating-Elegance-Hotel-Reviews
 
-    cd Data-Science-Job-Simulation
-
-### Create a Virtual Environment
-
-    python -m venv venv
-
-### Activate the Environment
+### 2. Create a Virtual Environment
 
 #### Windows
 
+    python -m venv venv
+
     venv\Scripts\activate
 
-#### macOS / Linux
+#### Linux / macOS
+
+    python3 -m venv venv
 
     source venv/bin/activate
 
-### Install Dependencies
+### 3. Install Dependencies
 
     pip install -r requirements.txt
 
-### Launch Jupyter Notebook
+### 4. Download Required NLTK Resources
 
-    jupyter notebook
+Open Python and run:
 
-Then open the notebooks and run the analysis cells sequentially.
+    import nltk
 
----
+    nltk.download('punkt')
+    nltk.download('stopwords')
 
-## 📓 Project Notebooks
+### 5. Launch the Notebook
 
-### 📊 Data Analysis Notebook
+    jupyter notebook uncensored_thesiswork.ipynb
 
-The analysis notebook covers:
-
-- Dataset exploration
-- Data cleaning
-- Missing-value analysis
-- Descriptive statistics
-- Customer behavior analysis
-- Data visualization
-- Feature relationships
-- Business observations
-
-### 🤖 Machine Learning Notebook
-
-The machine learning notebook covers:
-
-- Data preprocessing
-- Feature engineering
-- Train/test splitting
-- Multiple classification models
-- Model evaluation
-- Model comparison
-- Feature importance
-- Final interpretation
+Run the notebook cells to reproduce the research analysis, model training, evaluation, and geographical visualizations.
 
 ---
 
-## 🔍 Key Skills Demonstrated
+## 📦 Requirements
 
-### 📊 Data Science
+The repository includes a `requirements.txt` file containing the core Python dependencies used by the research.
 
-- Data Cleaning
-- Exploratory Data Analysis
-- Statistical Analysis
-- Feature Engineering
-- Data Visualization
-- Business Analysis
+    pandas
+    numpy
+    scikit-learn
+    nltk
+    matplotlib
+    folium
+
+Install all dependencies with:
+
+    pip install -r requirements.txt
+
+---
+
+## 📊 Research Workflow
+
+The complete analytical workflow can be summarized as:
+
+    Raw Hotel Reviews
+           ↓
+    Data Cleaning
+           ↓
+    NLP Preprocessing
+           ↓
+    TF-IDF Feature Extraction
+           ↓
+    80/20 Train-Test Split
+           ↓
+    Six ML Classification Models
+           ↓
+    Accuracy / Precision / Recall / F1
+           ↓
+    Comparative Analysis
+           ↓
+    Geographical Visualization
+
+---
+
+## 📈 Reproducibility
+
+The repository is organized around a reproducible research workflow:
+
+**Data → Preprocessing → Feature Extraction → Model Training → Evaluation → Visualization**
+
+The primary Jupyter Notebook contains the complete analytical implementation, allowing researchers and developers to inspect the methodology and reproduce the experiments.
+
+---
+
+## 🌍 Geospatial Analysis
+
+In addition to sentiment classification, the project explores the geographical characteristics of the dataset.
+
+The interactive visualizations provide two perspectives:
+
+**Hotel-level analysis**
+
+Shows the individual geographical locations of the hotels.
+
+**Country-level analysis**
+
+Shows the distribution of the dataset across the 14 represented European countries.
+
+This geographical component complements the NLP analysis by providing spatial context to the review data.
+
+---
+
+## 🏆 Research Contribution
+
+This project demonstrates the application of traditional machine learning and NLP techniques to customer-generated hotel reviews.
+
+The research combines:
+
+### 💬 Sentiment Analysis
+
+Extracting customer sentiment from natural-language hotel reviews.
 
 ### 🤖 Machine Learning
 
-- Classification
-- Model Training
-- Model Evaluation
-- Feature Selection
-- Feature Importance
-- Model Comparison
+Comparing six different classification algorithms.
 
-### 🧰 Development Tools
+### 📊 Model Evaluation
 
-- Python
-- Jupyter Notebook
-- Git
-- GitHub
+Using Accuracy, Precision, Recall, and F1-Score to compare performance.
+
+### 🌍 Geospatial Analytics
+
+Mapping hotels and countries represented in the dataset.
+
+Together, these components provide a multi-dimensional analytical perspective on European luxury hospitality reviews.
 
 ---
 
-## 🧠 What I Learned
+## 📜 Citation
 
-This project strengthened my practical understanding of the complete data science lifecycle.
+If you use this research, methodology, or repository in your academic or professional work, please cite the published paper:
 
-Key takeaways include:
+    @inproceedings{Tuhin_2025,
+      author    = {Al Foysal Tuhin and Rakhi Moni Saha and Adiba Masud and Tasnim Ara Shifa and Nusrat Jahan Mim and Sazia Sarmin},
+      title     = {Evaluating Elegance: Sentiment Analysis In European Luxury Hotel Reviews},
+      booktitle = {Proc. Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB-2025)},
+      year      = {2025},
+      publisher = {IEEE}
+    }
 
-- Working with real-world datasets
-- Cleaning and preparing imperfect data
-- Identifying meaningful patterns through EDA
-- Designing useful machine learning features
-- Comparing different classification algorithms
-- Evaluating models using appropriate metrics
-- Interpreting feature importance
-- Communicating technical findings from a business perspective
+### 📄 IEEE Xplore
+
+<p align="center">
+  <a href="https://ieeexplore.ieee.org/document/11277568">
+    <img src="https://img.shields.io/badge/IEEE%20Xplore-Read%20Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE Xplore">
+  </a>
+</p>
 
 ---
 
-## 💼 Portfolio Value
+## 📚 Research Materials
 
-This project demonstrates the ability to take a real-world business problem and transform it into a structured data science solution.
+| Resource | Description |
+|---|---|
+| 📓 `uncensored_thesiswork.ipynb` | Complete research and ML workflow |
+| 📦 `requirements.txt` | Project dependencies |
+| 🏆 `Research Paper Certificate.pdf` | Research publication certificate |
+| 🗺️ `hotels_world_map.html` | Interactive hotel-location map |
+| 🌍 `world_map_all14_countries.html` | Interactive country-distribution map |
 
-It showcases the combination of:
+---
 
-**Business Understanding → Data Analysis → Machine Learning → Evaluation → Business Insights**
+## 🔮 Future Research Directions
 
-rather than focusing solely on model accuracy.
+Potential extensions include:
+
+- 🤖 Transformer-based sentiment analysis
+- 🧠 BERT-based and deep-learning models
+- ⭐ Aspect-based sentiment analysis
+- 🏨 Hotel-specific sentiment comparison
+- 🌍 Country-level sentiment comparison
+- 📊 Interactive analytical dashboards
+- 📈 Temporal sentiment analysis
+- 🔎 Explainable AI
+- 🧪 Expanded model benchmarking
+- 🌐 Multilingual European hotel-review analysis
 
 ---
 
 ## 👨‍💻 Author
 
-**AL Foysal Tuhin**
+### **AL Foysal Tuhin**
 
-Data Analyst | Data Science & Machine Learning Enthusiast
+**Data Analyst • Data Science • Machine Learning • NLP • Research**
 
-GitHub: https://github.com/al-foysal-tuhin
-
-LinkedIn: https://www.linkedin.com/in/alfoysaltuhin
-
----
-
-## 📜 Disclaimer
-
-This project was developed for educational and portfolio purposes as part of the British Airways Data Science Job Simulation.
-
-The analysis, models, interpretations, and conclusions presented in this repository are intended to demonstrate practical data science skills.
+<p align="center">
+  <a href="https://github.com/al-foysal-tuhin">
+    <img src="https://img.shields.io/badge/GitHub-al--foysal--tuhin-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/alfoysaltuhin">
+    <img src="https://img.shields.io/badge/LinkedIn-Al%20Foysal%20Tuhin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
 
 ---
 
-<div align="center">
+## ⭐ Support the Research
 
-### 🔴 British Airways × Data Science 🔵
+If you find this project useful:
 
-**Turning customer booking data into actionable insights.**
+⭐ Star the repository
 
-**Built with Python • Machine Learning • Data Analysis**
+📄 Read the published IEEE paper
 
-</div>
+🔗 Share the research with others interested in NLP, machine learning, sentiment analysis, or hospitality analytics.
+
+---
+
+## 📜 License
+
+This project is licensed under the **Apache License 2.0**.
+
+See the `LICENSE` file for the complete license terms.
+
+---
+
+<p align="center">
+
+<strong>From customer reviews to machine learning insights.</strong>
+
+<br><br>
+
+🏨 &nbsp; 💬 &nbsp; 🧠 &nbsp; 🤖 &nbsp; 📊 &nbsp; 🌍 &nbsp; 📄
+
+<br><br>
+
+<strong>Evaluating Elegance: Sentiment Analysis in European Luxury Hotel Reviews</strong>
+
+<br>
+
+<em>IEEE Published Research • AICDMB-2025</em>
+
+</p>
