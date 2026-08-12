@@ -1,24 +1,8 @@
 # 🏨 Evaluating Elegance: Sentiment Analysis in European Luxury Hotel Reviews
-<p align="center">
-  <span style="display:inline-block; background:#00629B; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
-    ⚑ IEEE&nbsp;&nbsp; PUBLISHED RESEARCH
-  </span>
-  <span style="display:inline-block; background:#444444; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
-    NLP
-  </span>
-  <span style="display:inline-block; background:#8A2BE2; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
-    SENTIMENT ANALYSIS
-  </span>
-  <span style="display:inline-block; background:#555555; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
-    MACHINE LEARNING
-  </span>
-  <span style="display:inline-block; background:#FF6F00; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
-    6 MODELS
-  </span>
-  <span style="display:inline-block; background:#3776AB; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
-    🐍 PYTHON&nbsp;&nbsp; DATA SCIENCE
-  </span>
-</p>
+
+**Sentiment Analysis • Natural Language Processing • Machine Learning • European Luxury Hospitality • Geospatial Analytics**
+
+📄 IEEE Published Research • 💻 GitHub Repository
 <p align="center">
   📄 IEEE Published Paper
   &nbsp;•&nbsp;
