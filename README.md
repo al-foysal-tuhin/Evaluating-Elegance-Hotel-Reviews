@@ -1,23 +1,30 @@
 # 🏨 Evaluating Elegance: Sentiment Analysis in European Luxury Hotel Reviews
-
 <p align="center">
-  <img src="https://img.shields.io/badge/IEEE-Published%20Research-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE Published Research">
-  <img src="https://img.shields.io/badge/NLP-Sentiment%20Analysis-8A2BE2?style=for-the-badge" alt="NLP Sentiment Analysis">
-  <img src="https://img.shields.io/badge/Machine%20Learning-6%20Models-FF6F00?style=for-the-badge" alt="Machine Learning">
-  <img src="https://img.shields.io/badge/Python-Data%20Science-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <span style="display:inline-block; background:#00629B; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
+    ⚑ IEEE&nbsp;&nbsp; PUBLISHED RESEARCH
+  </span>
+  <span style="display:inline-block; background:#444444; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
+    NLP
+  </span>
+  <span style="display:inline-block; background:#8A2BE2; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
+    SENTIMENT ANALYSIS
+  </span>
+  <span style="display:inline-block; background:#555555; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
+    MACHINE LEARNING
+  </span>
+  <span style="display:inline-block; background:#FF6F00; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
+    6 MODELS
+  </span>
+  <span style="display:inline-block; background:#3776AB; color:white; padding:10px 18px; font-weight:bold; letter-spacing:2px; margin:3px;">
+    🐍 PYTHON&nbsp;&nbsp; DATA SCIENCE
+  </span>
 </p>
-
-<p align="center">
-  <strong>Sentiment Analysis • Natural Language Processing • Machine Learning • European Luxury Hospitality • Geospatial Analytics</strong>
-</p>
-
 <p align="center">
   📄 IEEE Published Paper
   &nbsp;•&nbsp;
   💻 GitHub Repository
 </p>
 
----
 
 ---
 
